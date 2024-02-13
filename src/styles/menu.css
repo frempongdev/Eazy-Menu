@@ -1,0 +1,35 @@
+.menu-wrapper {
+    color: white;
+}
+
+.menus-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vw;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-circle {
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.stew-image {
+    height: 100%;
+}
+
+.stew-item, .title-menu {
+    color: white;
+    text-align: center;
+}
+
+.title-menu {
+    color: rgb(244, 157, 28);
+    text-align: center;
+}
