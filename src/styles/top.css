@@ -1,0 +1,28 @@
+.top-wrapper {
+    border-bottom: solid rgb(255, 133, 10);
+    margin-bottom: 8vh;
+}
+
+.logo-line {
+    display: flex;
+    align-items: center;
+}
+
+.order {
+    color: rgb(244, 157, 28);
+    font-size: 2rem;
+    margin: 0;
+}
+
+.number {
+    color: white;
+}
+
+.number:hover {
+    color: rgb(244, 157, 28);
+}
+
+.numbers {
+    display: flex;
+    gap: 1rem;
+}
