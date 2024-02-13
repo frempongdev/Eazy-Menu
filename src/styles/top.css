@@ -8,10 +8,27 @@
     align-items: center;
 }
 
+
+
+@keyframes flip-horizontal-bottom {
+    0% { transform: rotateX(0); }
+    10% { transform: rotateX(-90deg); }
+    20% { transform: rotateX(0deg); }
+    100% { transform: rotateX(0deg); }
+  }
+  
+
+.order-box {
+    background-color: rgb(198, 119, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    animation: flip-horizontal-bottom 7s ease-in-out infinite;
+}
+
 .order {
-    color: rgb(244, 157, 28);
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 .number {
@@ -25,4 +42,30 @@
 .numbers {
     display: flex;
     gap: 1rem;
+}
+
+@media all and (max-width: 700px) {
+    .logo-line {
+        display: block;
+        align-items: center;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .order-box {
+        width: 60%;
+    }
+
+    .order {
+        font-size: 1rem;
+    }
+
+    .top-image {
+        width: 100%;
+    }
 }
