@@ -52,10 +52,3 @@ body {
 .top-image {
   width: 50%;
 }
-
-@media all and (max-width: 960px) {
-  .top-image {
-    width: 100%;
-  }
-  
-}
