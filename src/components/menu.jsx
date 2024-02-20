@@ -43,6 +43,7 @@ const Menu = () => {
           </div>
           <h4 className="title-menu">Others</h4>
           <div className="stew-list">
+            <p className="stew-item">Jollof Rice</p>
             <p className="stew-item">Fufu ( Sunday Special )</p>
             <p className="stew-item">Random Saturdays</p>
             {/* <p className="stew-item">+ Beans Stew</p>
