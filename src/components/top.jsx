@@ -8,9 +8,7 @@ const Top = () => {
           <img src={ezImage} alt="topp image" className="top-image" />
           <div className="contact">
             <div className="order-box">
-            <a href='tel:0201875762, 0241689066' className="number">
               <p className="order">ORDER NOW</p>
-            </a>
             </div>
             <div className="numbers">
               <a href='tel:0201875762' className="number"><h2>0201875762</h2></a>
